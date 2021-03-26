@@ -1,6 +1,6 @@
 package p02.lecture;
 
-public class a01Variable {
+public class A01Variable {
 	public static void main(String[] args) {
 		// 변수 : 값을 저장하는 공간의 이름
 		// 변수 선언 방법:
