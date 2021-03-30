@@ -7,7 +7,7 @@ public class Exercise08 {
 		
 		double z = x % y;
 		
-		if() {
+		if(Double.isNaN(z)) {
 			System.out.println("0.0으로 나눌 수 없습니다.");
 		}else {
 			double result = z + 10;
@@ -15,3 +15,4 @@ public class Exercise08 {
 		}
 	}
 }
+	
