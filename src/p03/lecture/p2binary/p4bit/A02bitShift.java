@@ -1,4 +1,4 @@
-package p03.lecture.p4bit;
+package p03.lecture.p2binary.p4bit;
 
 public class A02bitShift {
 	public static void main(String[] args) {

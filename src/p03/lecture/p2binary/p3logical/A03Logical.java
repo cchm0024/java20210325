@@ -1,4 +1,4 @@
-package p03.lecture.p3logical;
+package p03.lecture.p2binary.p3logical;
 
 public class A03Logical {
 

@@ -1,4 +1,4 @@
-package p03.lecture.p2binary;
+package p03.lecture.p2binary.p2Compare;
 
 public class A01Compare {
 	public static void main(String[] args) {
