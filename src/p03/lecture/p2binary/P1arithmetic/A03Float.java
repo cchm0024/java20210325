@@ -1,4 +1,4 @@
-package p03.lecture.p2binary.P1arithmetic;
+package p03.lecture.p2binary.p1arithmetic;
 
 public class A03Float {
 	public static void main(String[] args) {
@@ -7,5 +7,6 @@ public class A03Float {
 		
 		double c = a + b;
 		System.out.println(c);
+	}
 }
-}
+

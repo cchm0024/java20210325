@@ -1,4 +1,4 @@
-package p03.lecture.p2binary.P1arithmetic;
+package p03.lecture.p2binary.p1arithmetic;
 
 public class A05StringConcat {
 	public static void main(String[] args) {
@@ -27,10 +27,3 @@ public class A05StringConcat {
 		System.out.println(str7);
 	}
 }
-
-
-
-
-
-
-

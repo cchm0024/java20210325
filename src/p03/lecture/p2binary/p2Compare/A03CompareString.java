@@ -1,29 +1,29 @@
-package p03.lecture.p2COMPARE.copy;
+package p03.lecture.p2binary.p2Compare;
 
 public class A03CompareString {
 	public static void main(String[] args) {
-	
+		
 		// String 크기 비교 불가
 		String a = "abc";
 		String b = "def";
 		
-	//	System.out.println(a < b);
+//		System.out.println(a < b);
 		
 		String c = "a";
 		String d = "b";
 		
-	//	System.out.println(c < d);
-		
-		String e = 'a';
-		String f = 'b';
+//		System.out.println(c < d);
+
+		char e = 'a';
+		char f = 'b';
 		System.out.println(e < f);
 		
-		//동등한가(==) 동등하지않다 (!=)
+		// 동등한가(==) 동등하지않다(!=)
 		String str1 = "java";
 		String str2 = "java";
 		
 		System.out.println(str1 == str2);
-	
+		
 		String str3 = "ja";
 		String str4 = "va";
 		
@@ -33,10 +33,28 @@ public class A03CompareString {
 		
 		System.out.println(str1 == str5);
 		
-		//문자열이 같은지 확인하는 메소드
-		//equals
+		// 문자열이 같은지 확인하는 메소드
+		// equals
 		
 		System.out.println(str1.equals(str5));
-	
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
