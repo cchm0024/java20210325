@@ -6,15 +6,11 @@ public class A10ForScope {
 		
 		System.out.println(a);
 		
-		
-		int = i;
-		
-		for(i = 0; i<5; i++) {
+		int i;
+		for (i = 0; i < 5; i++) {
 			System.out.println(i);
 		}
 		
-			
-		}
+		System.out.println(i);
 	}
 }
-다시

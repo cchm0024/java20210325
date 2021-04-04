@@ -1,4 +1,4 @@
-package p03.lecture.p2binary.p1arithmetic;
+package p03.lecture.p2binary.P1arithmetic;
 
 public class A05StringConcat {
 	public static void main(String[] args) {

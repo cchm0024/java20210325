@@ -35,4 +35,3 @@ public class A08Switch {
 			
 			
 }
-}

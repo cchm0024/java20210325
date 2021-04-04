@@ -1,6 +1,7 @@
 package p05.lecture;
 
 public class A02ReferenceType2 {
+	// 그림 : 01.참조타입.png
 	public static void main(String[] args) {
 		int i;
 		i = 3;
@@ -8,9 +9,11 @@ public class A02ReferenceType2 {
 		String s;
 		s = new String("java");
 		
-		// String
+		// String : 타입
 		// s : (참조)변수
-		// new String("java" : 객체(instance))객체) objext(객체)
-		// S가 자진 값 최소값
+		// new String("java") : 객체(instance(개체), object(객체))
+		// s 가 가진 값: 참조값
+		
 	}
 }
+
