@@ -1,8 +1,8 @@
 	public static void main(String[] args) {
 		// 1번문제: 4
-		int v = 3;
+//		int v = 3;
 		
-		System.out.println(v);
+//		System.out.println(v);
 		
 		// 2번문제;
 		int modelName; 

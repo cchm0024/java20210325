@@ -1,11 +1,10 @@
 package p05.lecture;
 
 public class A04ReferenceType4 {
-	
-	// 그림 : 03.참조타입.pug
+	// 그림 : 03.참조타입.png
 	public static void main(String[] args) {
 		int i = 3;
-		int j = 3;
+		int j = i;
 		
 		String s = new String("java");
 		String t = s;
@@ -13,4 +12,5 @@ public class A04ReferenceType4 {
 		System.out.println(i == j);
 		System.out.println(s == t);
 	}
+
 }

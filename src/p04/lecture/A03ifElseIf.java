@@ -11,7 +11,7 @@ public class A03ifElseIf {
 		
 		if(a > 100) {
 			System.out.println("statement2");			
-		}else if (a = 0) {
+		}else if (a > 0) {
 			System.out.println("statement3");			
 		}else if (a > -50){
 			System.out.println("statement4");
