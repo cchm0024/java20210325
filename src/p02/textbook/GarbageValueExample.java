@@ -8,7 +8,7 @@ public class GarbageValueExample {
 		for (int i = 0; i < 5; i++) {
 			var1++;
 			var2++;
-			System.out.println("var1: " + var1 + "\t" + "var2: " + var2);
+			System.out.println("var1: " + var1 + "\t" + "var2: " ar2);
 		}
 	}
 }

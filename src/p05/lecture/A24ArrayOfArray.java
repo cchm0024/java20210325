@@ -2,8 +2,6 @@ package p05.lecture;
 
 import java.util.Arrays;
 
-import sun.security.util.Length;
-
 public class A24ArrayOfArray {
 	public static void main(String[] args) {
 		int[] arr1 = new int[3];
@@ -31,6 +29,7 @@ public class A24ArrayOfArray {
 			}
 			System.out.println();
 		}
+		
 		// Arrays.toString()
 		System.out.println("--- Arrays.toString() ---");
 		for (int[] arr : arr2) {
@@ -38,8 +37,6 @@ public class A24ArrayOfArray {
 		}
 		
 	}
-
-		
-	}
+}
 
 
