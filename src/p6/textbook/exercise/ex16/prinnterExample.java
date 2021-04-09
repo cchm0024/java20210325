@@ -1,4 +1,4 @@
-package p6.textbook.exercise.ex16.ex17;
+package p6.textbook.exercise.ex16;
 
 public class prinnterExample {
 	public static void main(String[] args) {
