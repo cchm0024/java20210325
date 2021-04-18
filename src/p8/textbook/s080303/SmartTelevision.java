@@ -4,32 +4,32 @@ import p8.textbook.s080205.*;
 
 public class SmartTelevision implements RemoteControl, Searchable{
 	private int volume;
-	
+
 	@Override
-	public void turnON() {
+	public void turnOn() {
 		System.out.println("TV를 켭니다.");
-		
 	}
 
 	@Override
 	public void turnOff() {
 		System.out.println("TV를 끕니다.");
-		
 	}
 
 	@Override
-	public void setVolume() {
-		if(volume>RemoteControl.MAX_VOLUME) {
+	public void setVolume(int volume) {
+		if (volume > RemoteControl.MAX_VOLUME) {
 			this.volume = RemoteControl.MAX_VOLUME;
-		}else if(volume<RemoteControl.MIN_VOLUME) {
+		} else if (volume < RemoteControl.MIN_VOLUME) {
 			this.volume = RemoteControl.MIN_VOLUME;
-		}else {
+		} else {
 			this.volume = volume;
 		}
-		System.out.println("현재 Tv볼륨: " + this.volume);
+		System.out.println("현재 TV 볼륨: " + this.volume);
+		
 	}
+	
+	@Override
 	public void search(String url) {
 		System.out.println(url + "을 검색합니다.");
 	}
-
 }

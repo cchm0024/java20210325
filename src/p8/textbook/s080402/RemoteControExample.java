@@ -9,11 +9,11 @@ public class RemoteControExample {
 		RemoteControl rc = null;
 		
 		rc = new Television();
-		rc.turnON();
+		rc.turnOn();
 		rc.setMute(true);
 		
 		rc = new Audio();
-		rc.turnON();
+		rc.turnOn();
 		rc.setMute(false);
 	}
 }

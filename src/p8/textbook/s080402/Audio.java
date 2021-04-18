@@ -10,7 +10,7 @@ public class Audio implements RemoteControl{
 	
 	//turnON() 추상 메소의 실체 메소드
 	@Override
-	public void turnON() {
+	public void turnOn() {
 		System.out.println("Audio를 켭니다.");
 	}
 	

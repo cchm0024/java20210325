@@ -13,5 +13,9 @@ public class A01Polymorpgism {
 		
 		System.out.println("새 무기장착");
 		hero.setGun(new WaterGun());
+		
+		System.out.println("공격");
+		hero.attack();
+		
 	}
 }

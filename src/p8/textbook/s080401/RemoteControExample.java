@@ -11,17 +11,17 @@ public class RemoteControExample {
 		RemoteControl rc = null;
 		
 		rc = new Television();
-		rc.turnON();
+		rc.turnOn();
 		rc.turnOff();
 		rc.setMute(false);
 		
 		rc = new Audio();
-		rc.turnON();
+		rc.turnOn();
 		rc.turnOff();
 		rc.setMute(true);
 		
 		rc = new SmartTelevision();
-		rc.turnON();
+		rc.turnOn();
 		rc.turnOff();
 		
 		Searchable s1  = new SmartTelevision();

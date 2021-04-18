@@ -28,7 +28,7 @@ public class A01TypeCasting {
 		d2.sit();
 		d2.pull();
 		
-		Wolf w1 = (Wlof)k1;
+		Wolf w1 = (Wolf) k1;
 		w1.back();
 		
 		System.out.println("프로그램종료");
