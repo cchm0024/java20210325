@@ -1,7 +1,6 @@
 package p99.programmers;
 
 public class P12919 {
-
 	// 서울에서 김서방 찾기
 	public String solution(String[] seoul) {
         String answer = "";
@@ -16,4 +15,3 @@ public class P12919 {
         return answer;
     }
 }
-
