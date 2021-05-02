@@ -10,8 +10,8 @@ public class A02List {
 		List<String> list = new ArrayList<>();
 		
 		// add : 값 추가
-		list.add("java");
-		list.add("spring");
+		list.add("java");   
+		list.add("spring"); 
 		list.add("python");
 //		list.add(3);
 		

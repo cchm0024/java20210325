@@ -22,9 +22,11 @@ public class Ex04List {
 
 	private static int sumScore(List<Student> list) {
 		int sum = 0;
-		for (int i = 0; i<list.size(); i++) {
-				sum+= ilst[i];
-			}
+
+		for (Student s : list) {
+			sum += s.getScore();
+		}
+		
 		return sum;
 	}
 
@@ -59,7 +61,6 @@ class Student {
 		return score;
 	}
 }
-
 
 
 

@@ -1,4 +1,4 @@
-package P15.textbook.exercies;
+package P15.textbook;
 
 import java.lang.reflect.Member;
 

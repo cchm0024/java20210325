@@ -12,29 +12,39 @@ public class Ex06Set {
 		int sum1 = sum(arr1);
 		int sum2 = sum(arr2);
 		
-		System.out.println(sum1);
-		System.out.println(sum2);
+		System.out.println(sum1); // 15
+		System.out.println(sum2); // 10
 	}
 	
 	public static int sum(int[] nums) {
-		Set<Integer> set = new HashSet<Integer>();
-		for(int n : nums) {
-			set.add(n);
-		}
-		return result = 0;
+		Set<Integer> set = new HashSet<>();
 		
-	//	Iterator<Integer> iter = set.iterator();
+//		for (int n : nums) {
+//			set.add(n);
+//		}
 		
-	//	while (iter.hasNext()) {
-	//		result += iter.next();
-			
-		
-			for (int n : set) {
-				result += n;
-			}
-			
-			return result;
+		for (int i = 0; i < nums.length; i++) {
+			set.add(nums[i]);
 		}
 		
+		int result = 0;
+		
+		
+//		Iterator<Integer> iter = set.iterator();
+//		
+//		while (iter.hasNext()) {
+//			result += iter.next();
+//		}
+		
+//		for (int n : set) {
+//			result += n;
+//		}
+		
+		for (Iterator<Integer> iter = set.iterator(); iter.hasNext();) {
+			result += iter.next();
+		}
+		
+		return result;
 	}
 }
+

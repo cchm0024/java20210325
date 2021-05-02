@@ -55,9 +55,10 @@ public class Ex01List {
 		
 		int sum = 0;
 		
-		for (int n : list) {
-			sum += n;
-		}
+		
+	for (int n : list) {
+		sum += n;
+	}
 		return sum;
 	}
 	

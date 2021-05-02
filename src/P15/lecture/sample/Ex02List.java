@@ -6,62 +6,46 @@ import java.util.Collections;
 import java.util.List;
 
 public class Ex02List {
-		public static void main(String[] args) {
-			List<Integer> list1 = Arrays.asList(7,3,5,1);
-			List<Integer> list2 = Arrays.asList(3,2,3,5,0,2);
-			
-			List<Integer> merge1 = merge1(list1, list2);
-			System.out.println(merge1);
-			
-			List<Integer> merge2 = merge2(list1, list2);
-			System.out.println(merge2);
-			
-		}
-
-
-
-		private static List<Integer> merge1(List<Integer> list1, List<Integer> list2) {
-			int size1 = list1.size();
-			int size2 = list2.size();
-			
-			List<Integer> merge = new ArrayList<>();
-			
-			int i1 = 0, i2 = 0;
-			for (; i1 < size1 && i2 < size2; i1++, i2++) {
-				merge.add(list1.get(i1));
-				merge.add(list2.get(i2));
-			}
-			
-			for (; i1 < size1; i1++) {
-				merge.add(list1.get(i1));
-			}
-			
-			for (; i2 < size2; i2++) {
-				merge.add(list2.get(i2));
-			}
-			
-			return merge;
-		}
+	public static void main(String[] args) {
+		List<Integer> list1 = Arrays.asList(5, 2, 6, 9, 0);
+		List<Integer> list2 = Arrays.asList(3, 5, 8, 2, 7);
 		
-		private static List<Integer> merge(List<Integer> list1, List<Integer> list2) {
-			int i1 = list1.size() -1;
-			int i2 = list2.size() -1;
-			
-			While (i1 >= 0 || i2 >=0) {
-				if (i1 >= 0) {
-					merge.add
-				}
-			merge.add(list1.get(i1));
-			merge.add(list2.get(i2));
-			
+		List<Integer> merge1 = merge1(list1, list2);
+		System.out.println(merge1);
 
-			}
-			
-			
-			return merge
-		}
+		List<Integer> merge2 = merge2(list1, list2);
+		System.out.println(merge2);
 	}
 
+	private static List<Integer> merge2(List<Integer> list1, List<Integer> list2) {
+		List<Integer> list = new ArrayList<>();
+		
+		for (int i = 0; i < list1.size(); i++) {
+			int e1 = list1.get(i);
+			int e2 = list2.get(i);
+			
+			if (!list.contains(e1)) {
+				list.add(e1);
+			}
+			
+			if (!list.contains(e2)) {
+				list.add(e2);
+			}
+		}
+
+		return list;
+	}
+
+	private static List<Integer> merge1(List<Integer> list1, List<Integer> list2) {
+		List<Integer> merge = new ArrayList<>();
+		for (int i = 0; i < list1.size(); i++) {
+			merge.add(list1.get(i));
+			merge.add(list2.get(i));
+		}
+		
+		return merge;
+	}
+}
 
 
 

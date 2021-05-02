@@ -1,20 +1,19 @@
 package P15.lecture;
 
+import java.util.HashSet;
 import java.util.Set;
-
-import p6.textbook.s061101.Person;
 
 public class A08SetEquals {
 	public static void main(String[] args) {
-		Set<Person> set = HashSet<>();
+		Set<Person> set = new HashSet<>();
 		Person p1 = new Person();
 		p1.setName("trump");
 		
 		Person p2 = new Person();
-		p1.setName("jmc");
+		p2.setName("donald");
 		
 		Person p3 = new Person();
-		p1.setName("2min");
+		p3.setName("trump");
 		
 		set.add(p1);
 		set.add(p2);
@@ -27,8 +26,7 @@ public class A08SetEquals {
 		Set<Integer> intSet = new HashSet<>();
 		intSet.add(new Integer(3));
 		intSet.add(new Integer("3"));
-		
-		
+		System.out.println(intSet.size());
 	}
 }
 
@@ -70,3 +68,9 @@ class Person {
 	
 	
 }
+
+
+
+
+
+

@@ -2,6 +2,7 @@ package P15.lecture;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class A09Map {
 	public static void main(String[] args) {
@@ -10,7 +11,7 @@ public class A09Map {
 		map.put(2, 99);
 		map.put(3, 6);
 		map.put(8, 77);
-		
+	
 		System.out.println(map.size());
 		
 		map.put(8, 88);
@@ -23,14 +24,17 @@ public class A09Map {
 		Set<Integer> keys = map.keySet();
 		
 		for (Integer key : keys) {
-			System.out.println(Key + ":" + map.get(key));
+			System.out.println(key + ":" + map.get(key));
 		}
 		
 		map.remove(8);
 		System.out.println(map.size());
 		
-		Set<Map.Entry<Integer, Integer>> entries = map.entrySet() {
-			System.out.println(entry.getket);
+		Set<Map.Entry<Integer, Integer>> entries = map.entrySet();
+		
+		for (Map.Entry<Integer, Integer> entry : entries) {
+			System.out.println(entry.getKey() + ":" + entry.getValue());
 		}
 	}
 }
+

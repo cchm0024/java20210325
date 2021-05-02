@@ -1,8 +1,9 @@
 package P15.lecture;
 
-import java.awt.List;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+
 
 public class A03ArrayList {
 	public static void main(String[] args) {
@@ -13,9 +14,10 @@ public class A03ArrayList {
 		
 		
 		arr1 = Arrays.copyOf(arr1, 4);
-		arr1[3] = 102; 
+		arr1[3] = 102; // x 
 		
 		System.out.println(Arrays.toString(arr1));
+		
 		List<Integer> list = new ArrayList<>();
 		list.add(99);
 		list.add(100);
