@@ -15,6 +15,8 @@ public class A12FileCopy {
 		Reader fr = new FileReader(src);
 		Writer fw = new FileWriter(des);
 		
+		// 코드 작성......
+		
 		int data = 0;
 		
 		while ((data = fr.read()) != -1) {

@@ -11,6 +11,11 @@ public class A11Writer {
 		char c = '가';
 		
 		wt.write(c);
+		wt.write('나');
+		wt.write(new char[] {'다', '라', '마'});
+		wt.write(new char[] {'바', '사', '아'});
+		wt.write("자바");
+		wt.write("스프링프레임워크", 3, 5);
 		
 		wt.close();
 		
